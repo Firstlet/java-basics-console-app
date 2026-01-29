@@ -2,10 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int num = scanner.nextInt();
+        int num = s.nextInt();
+        if (number <= 0) {
+        System.out.println("Please enter a positive number.");
+        return;
+        }
+
 
         int sum = 0;
         for (int i = 1; i <= num; i++) {
