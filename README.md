@@ -1,15 +1,26 @@
-# Java Basics Console Application
+# Java Console RPG: Epochs of Trinity
 
-This repository contains simple Java console applications created for learning purposes.
+Небольшая, но детальная RPG-игра для консоли на Java.
 
-## Technologies
-- Java
+## Что реализовано
+- **3 расы**: Люди, Орки, Эльфы (каждая с уникальными стартовыми бонусами).
+- **Сбор ресурсов**: дерево, камень, еда, железо, золото.
+- **Вид от 1-го и 3-го лица**: переключаемый режим повествования в процессе игры.
+- **Строительство**: ферма, казармы, шахта, крепостная стена, рынок.
+- **Войны**: разведка, подготовка армии и боевые походы против врага.
+- **Стратегическое развитие**: население, мораль, сила армии и уровень угрозы.
 
-## Features
-- Read user input
-- Calculate sum of numbers from 1 to N
-- Print even and odd numbers
-- Practice loops and conditions
+## Запуск
+```bash
+javac Main.java
+java Main
+```
 
-## Purpose
-Learning Java basics and improving problem-solving skills.
+## Игровой цикл
+Каждый день игрок:
+1. Проверяет состояние королевства.
+2. Выбирает действия (добыча, стройка, тренировка, война и т.д.).
+3. Завершает день, после чего обновляются ресурсы, угрозы и состояние населения.
+
+## Цель
+Победить вражеские кланы (снизить угрозу до 0), не потеряв народ и мораль.
